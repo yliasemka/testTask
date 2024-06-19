@@ -1,0 +1,74 @@
+.demo{
+    &-text{
+        width: 50%;
+        padding: 102px 0 102px 72px;
+    }
+    &-header{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        color: $_dark_blue_color;
+        padding-bottom: 18px;
+    }
+    &-description{
+        width: 538px;
+        padding-bottom: 36px;
+        & p{
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 27.2px;
+            text-align: left;
+            color:#727272 ;
+        }
+    }
+    &-img{
+        width: 50%;
+        position: relative;
+        overflow: hidden;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    &-image{
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    &-free{
+        width: 341px;
+        height: 68px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 60px ;
+        border: none;
+        background-color: $_button_blue_color;
+        &__button{
+            border: none;
+            background-color: $_button_blue_color;
+            color:#fff;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28.8px;
+            text-align: left;
+        }
+        &__link{
+            background-color: $_white_color;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;           
+            justify-content: center;
+            align-items: center;
+            & i{
+                display: block;
+                color:#1F4284;
+                transform: rotate(45deg);
+                font-family: 'FontAwesome';
+                font-size: 20px;
+            }
+        }
+    }
+}
