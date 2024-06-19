@@ -1,0 +1,331 @@
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
+.btn {
+  padding: 18, 12px, 18px, 12px;
+  color: #244c98;
+  text-align: center;
+  background: none;
+  border: 1px solid #244c98;
+  border-radius: 4px;
+  outline: none;
+  width: 452px;
+  height: 65px;
+  margin: 0 auto;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  display: block;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .btn {
+    width: 250px;
+    height: 50px;
+    padding: 0 10px;
+  }
+}
+
+.btn:first-of-type {
+  margin-bottom: 4px;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #244c98;
+  border: none;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (width >= 768px) and (width <= 1439px) {
+  .demo {
+    flex-direction: column;
+  }
+}
+
+.demo-text {
+  width: 50%;
+  padding: 102px 0 102px 72px;
+}
+
+@media only screen and (width >= 768px) and (width <= 1439px) {
+  .demo-text {
+    width: 100%;
+    padding: 24px;
+  }
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo-text {
+    width: 100%;
+    padding: 24px;
+  }
+}
+
+.demo-header {
+  text-align: left;
+  color: #1f4284;
+  padding-bottom: 18px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.demo-description {
+  width: 538px;
+  padding-bottom: 36px;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo-description {
+    width: 100%;
+  }
+}
+
+@media only screen and (width >= 768px) and (width <= 1439px) {
+  .demo-description {
+    width: 100%;
+  }
+}
+
+.demo-description p {
+  text-align: left;
+  color: #727272;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.demo-img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (width >= 768px) and (width <= 1439px) {
+  .demo-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+  }
+}
+
+.demo-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.demo-free {
+  background-color: #244c98;
+  border: none;
+  border-radius: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 341px;
+  height: 68px;
+  padding: 12px 24px;
+  display: flex;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo-free {
+    width: 279px;
+    height: 56px;
+  }
+}
+
+.demo-free__button {
+  color: #fff;
+  text-align: left;
+  background-color: #244c98;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .demo-free__button {
+    font-size: 15px;
+  }
+}
+
+.demo-free__link {
+  background-color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.demo-free__link i {
+  color: #1f4284;
+  font-family: FontAwesome;
+  font-size: 20px;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.modal {
+  z-index: 1050;
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .modal-dialog {
+    max-width: 300px;
+  }
+}
+
+.modal-content {
+  background-color: #ebf0fa;
+  border: none;
+  width: 100%;
+  padding: 24px;
+  position: relative;
+}
+
+.modal-title {
+  text-align: left;
+  padding: 18px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.78px;
+}
+
+.modal-input {
+  text-align: left;
+  background-color: #d7e2f6;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  width: 452px;
+  height: 73px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  display: block;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .modal-input {
+    width: 250px;
+    height: 50px;
+    padding: 0 10px;
+  }
+}
+
+.modal-input:first-of-type {
+  margin-bottom: 4px;
+}
+
+.modal-checkbox {
+  margin: 24px 0;
+}
+
+.modal-label {
+  margin-left: 5px;
+}
+
+.modal-reset {
+  margin-bottom: 36px;
+}
+
+.modal-reset a {
+  text-decoration: none;
+}
+
+.modal-close {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  margin-left: auto;
+  display: flex;
+}
+
+.modal-close i {
+  color: #000;
+  font-family: FontAwesome;
+  font-size: 22px;
+  display: block;
+}
+
+input::placeholder {
+  color: #1f4284;
+  font-family: Manrope;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: Manrope, sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 36px 40px 0;
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .container {
+    padding: 14px 24px 0;
+  }
+}
+
+@media only screen and (width >= 768px) and (width <= 1439px) {
+  .container {
+    padding: 24px 24px 0;
+  }
+}
+
+.wrapper {
+  background-color: #ebf0fa;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+/*# sourceMappingURL=index.e8265c92.css.map */
