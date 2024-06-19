@@ -63,3 +63,25 @@
         font-size: 15px;;
     }
 }
+
+@mixin btnMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 250px;
+        height: 50px;
+        padding: 0 10px;
+    }
+}
+
+@mixin inputMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 250px;
+        height: 50px;
+        padding: 0 10px;
+    }
+}
+
+@mixin modelDialogMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        max-width: 300px;
+    }
+}
