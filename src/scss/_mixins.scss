@@ -1,0 +1,65 @@
+@mixin wrapperMedia {
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        flex-direction: column;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+        flex-direction: column;
+    }
+}
+
+@mixin containerMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        padding: 14px 24px 0 24px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+        padding: 24px 24px 0 24px;
+    }
+}
+
+@mixin demoMedia{
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+        width: 100%;
+        padding: 24px;
+    }
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 100%;
+        padding: 24px;
+    }
+}
+
+@mixin widthMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 100%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+        width: 100%;
+    }
+}
+
+@mixin imgMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+@mixin freeMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        width: 279px;
+        height: 56px;
+    }
+}
+
+@mixin freeBtnMedia{
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        font-size: 15px;;
+    }
+}

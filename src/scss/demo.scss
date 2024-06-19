@@ -1,7 +1,9 @@
 .demo{
+    @include wrapperMedia;
     &-text{
         width: 50%;
         padding: 102px 0 102px 72px;
+        @include demoMedia;
     }
     &-header{
         font-size: 30px;
@@ -14,6 +16,7 @@
     &-description{
         width: 538px;
         padding-bottom: 36px;
+        @include widthMedia;
         & p{
             font-size: 17px;
             font-weight: 400;
@@ -28,6 +31,7 @@
         overflow: hidden;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        @include imgMedia;
     }
     &-image{
         width: 100%; 
@@ -45,6 +49,7 @@
         border-radius: 60px ;
         border: none;
         background-color: $_button_blue_color;
+        @include freeMedia;
         &__button{
             border: none;
             background-color: $_button_blue_color;
@@ -53,6 +58,7 @@
             font-weight: 500;
             line-height: 28.8px;
             text-align: left;
+            @include freeBtnMedia
         }
         &__link{
             background-color: $_white_color;

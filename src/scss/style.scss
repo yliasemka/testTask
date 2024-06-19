@@ -1,5 +1,6 @@
 @import './cdn';
 @import './var';
+@import './mixins';
 @import './demo';
 
 
@@ -19,6 +20,7 @@ html{
     max-width: 1920px;
     margin: 0 auto;
     padding: 36px 40px 0 40px;
+    @include containerMedia;
 }
 
 .wrapper{
